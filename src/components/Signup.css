@@ -1,0 +1,50 @@
+.signup .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 1rem;
+}
+
+.signup .left {
+    text-align: center;
+}
+
+.signup img {
+    width: 300px;
+}
+
+.signup img:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+.custom-input{
+    color: white;
+}
+
+.right h1{
+    color: rgb(143, 143, 143);
+    margin-top: 10px;
+}
+
+.signup .right p {
+    margin: 3rem 0rem;
+    margin-top: 15px;
+}
+
+@media screen and (max-width:940px) {
+    .signup .container {
+        grid-template-columns: 1fr;
+    }
+    .signup .right .input-container{
+        width: 50%; /* Adjust the width as needed */
+  margin-left: 80px;
+  margin-right: auto;
+    }
+    .signup .right .btn{
+        margin-left: 50px;
+    }
+    .signup .right h2{
+        margin-top: 25px;
+    }
+}

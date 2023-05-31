@@ -1,13 +1,162 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Bebas+Neue&family=Poppins&family=Staatliches&display=swap');
+
+:root {
+  --primary: #118c4f;
+  --background: #f6f1f1;
+}
+
+.primary {
+  color: var(--primary);
+}
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  padding: 0;
+
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+.container {
+  max-width: 1240px;
+  margin: auto;
+}
+
+
+body {
+  font-family: 'Poppins', 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
+  background-color: #000000;
   -moz-osx-font-smoothing: grayscale;
+  color: white;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+h1 {
+  font-size: 4.5rem;
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 2.4rem;
+  line-height: 1.2;
+}
+
+h5 {
+  font-size: 1.1rem;
+  line-height: 1.2;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+.btn {
+
+
+
+  display: inline-block;
+  outline: 0;
+  cursor: pointer;
+  padding: 10px 16px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+  vertical-align: middle;
+  border: 1px solid;
+  border-radius: 12px;
+  margin-left:10px;
+  color: #fbfbfb;
+  background-color: #0771db;
+  border-color: #1b1f2326;
+  box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px 0px inset;
+  transition: 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+  transition-property: color, background-color, border-color;
+}
+  .btn:hover {
+      color: #ffffff;
+      background-color: #0366d6;
+      border-color: #1b1f2326;
+      box-shadow: rgba(27, 31, 35, 0.1) 0px 1px 0px 0px, rgba(255, 255, 255, 0.03) 0px 1px 0px 0px inset;
+      transition-duration: 0.1s;
+  }
+  
+.btn:hover {
+  box-shadow: rgb(0 0 0 / 15%) 0px 8px 24px;
+}
+
+input {
+  padding: 12px 32px;
+  border: 1px solid var(--primary);
+  background: transparent;
+  border-radius: 24px 4px;
+  font-size: 1rem;
+  margin-right: .8rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+@media screen and (max-width:768px) {
+  h1 {
+    font-size: 2.1rem;
+    line-height: 1.2;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    line-height: 1.2;
+  }
+  
+  h5 {
+    font-size: 1.1rem;
+    line-height: 1.2;
+  }
+  
+  p {
+    font-size: 1rem;
+  }
+
+  .btn {
+    width: 180px;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 1rem 0;
+  }
+
+  input {
+    width: 100%;
+  }
+
+}
+
+* html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  text-align: center;
+  
+}
+
+
