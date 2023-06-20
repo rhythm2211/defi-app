@@ -10,7 +10,7 @@
     grid-template-columns: repeat(2, 2fr);
     justify-content: center;
     align-items: center;
-    padding: 1rem;
+    padding: 3rem;
 }
 
 .featured .left {
